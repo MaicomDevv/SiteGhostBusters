@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section h1 {
+    font-family: 'Dela Gothic One', sans-serif;
+    font-weight: normal;
+}
+
+section h2,
+body {
+    font-family: 'Bungee', sans-serif;
+    font-weight: normal;
+}
+
+header {
+    padding: 16px 0;
+    background-color: #ffffff;
+}
+
+body {
+    background-color: #ff0000;
+}
+
+header img {
+    display: inline;
+    height: 115px;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header nav li a {
+    color: #ff0000;
+text-decoration: none;
+}
+
+.name {
+    color: #ffffff;
+    margin-left: 160px;
+    margin-bottom: 8px;
+    margin-top: 8px;
+
+}
+
+
+section .sobre {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+section div img {
+    height: 450px;
+    margin-right: 32PX;
+}
+
+section h1 {
+    font-size: 35px;
+}
+
+section .sobre {
+    align-items: flex-start;
+}
+
+section  {
+    padding: 24PX 0;
+}
+
+section h2 {
+    margin-bottom: 15PX;
+}
+
+section div li {
+    display: inline;
+}
+
+.ghost {
+    height: 100px;
+}
+
+.cc {
+    color: #ff0000;
+    margin-left: 160px;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+.cc img {
+    height: 350px;
+    border-radius: 10%;
+    box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.445);
+}
+
+#Cacadores {
+    background-color: #ffffff;
+}
+
+.cc img:hover {
+    transform: scale(1.05);
+    transition: .6s;
+}
+
+.caça {
+    color: #ffffff;
+    margin-left: 160px;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    font-family: 'Bungee', sans-serif;
+    font-weight: normal;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+    margin-left: 160px;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    font-family: 'Bungee', sans-serif;
+    font-weight: normal;
+}
+
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+form button:hover {
+    background-color: #b30707;
+}
+
+form button {
+    background-color: #ff3f3f;
+    border: none;
+    cursor: pointer;
+    box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.219);
+}
+
+input:focus, textarea:focus {
+    outline-color: #8a0000;
+}
+
+#cacadores {
+    display: block;
+}
